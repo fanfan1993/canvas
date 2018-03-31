@@ -21,10 +21,10 @@
 
 * 点击screenshot文件夹可预览
 
-![screenshot](./screenshot/1)
+![screenshot](./screenshot/1.png)
 
 
-![screenshot](./screenshot/2)
+![screenshot](./screenshot/2.png)
 
 
-![screenshot](./screenshot/3)
+![screenshot](./screenshot/3.png)
