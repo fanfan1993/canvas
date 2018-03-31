@@ -1,0 +1,16 @@
+/* pages/home/share/share.wxss */
+.btn-wrap{
+  display: flex;
+  /* background-image: linear-gradient(-180deg, #4199f9 97%,  #79c7f4 100%); */
+  background: #fff;
+  justify-content: center;
+  align-items: center
+}
+.btn-layout{
+  margin: 0 auto
+}
+.btn-width{
+  background-image: linear-gradient(-180deg, #79c7f4 1%, #4199f9 55%);
+  width: 306rpx;
+  color: #fff;
+}

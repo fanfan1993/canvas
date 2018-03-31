@@ -1,0 +1,76 @@
+/**index.wxss**/
+
+.index-wrap{
+  height: 100%;
+}
+.index-head-wrap{
+  padding-top: 200rpx
+}
+.index-head-text{
+  display: block;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 34rpx;
+  color: #F7F7FA;
+}
+.index-head-slogan-img{
+  width: 620rpx;
+  height: 386rpx;
+}
+
+/* 开始分享 */
+.out_button {
+  margin-top: 100rpx;
+  padding: 30rpx 25%;
+}
+
+.start_order {
+  background-image: linear-gradient(-180deg, #79c7f4 1%, #4199f9 55%);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+}
+/* 列表 */
+.myButton::after {
+  border: none;
+  border-bottom: 2px solid #f5f8fa;
+}
+
+.fenxiang_detail, .fenxiang_detail .mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+
+.fenxiang_detail .mask {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.fenxiang_detail .list {
+  position: absolute;
+  left: 0;
+  bottom: 0rpx;
+  width: 100%;
+  background: #f5f8fa;
+  z-index: 21;
+  font-size: 32rpx;
+  max-height: 1000rpx;
+  transition: All 0.5s ease;
+  -webkit-transition: All 0.5s ease;
+}
+
+.fenxiang_detail .list .item_fen {
+  background: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-bottom: 2px solid #f5f8fa;
+  font-size: 32rpx;
+}

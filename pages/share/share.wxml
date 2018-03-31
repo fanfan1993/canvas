@@ -1,0 +1,18 @@
+<!--pages/home/share/share.wxml-->
+<!-- 空白占位 -->
+
+<view>
+  <view class="img_out">
+    <!--margin: 0;padding: 0;解决某些机型有边距出现的问题-->
+    <image src="{{shareImage}}" style='width:100%;height:{{windowHeight-0}}px;margin: 0;padding: 0;display: none;'></image>
+    <canvas canvas-id='myCanvas' disable-scroll="true" catchtouchmove="ccvsMove" bindtouchmove="cvsMove" style='width:100%;height:{{windowHeight-80}}px;margin: 0;padding: 0;display: block; '></canvas>
+   
+    <view class='btn-wrap' style='height:80px'>
+
+    <view class='btn-layout'>
+    
+       <button class=' btn-layout btn-width' bindtap="saveImage">点击保存</button>
+    </view>
+  </view>
+  </view>
+</view>

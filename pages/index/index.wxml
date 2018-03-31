@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container index-wrap" style="background: url('/images/jj4.jpg')no-repeat;background-size: 100% 100%;height:{{windowHeight}}px">
+  <view class='index-head-wrap'>
+    <text class='index-head-text'>确认过眼神!</text>
+    <text class='index-head-text' style='margin-top:12rpx;'>我遇上对的人</text>
+  </view>
+  <view>
+  </view>
+  <view class="out_button">
+    <view class="start_order"  data-id="0" catchtap='clickToFen'>
+      点击分享
+    </view>
+  </view>
+    <!-- 底部分享列表 -->
+      <view class="fenxiang_detail" hidden="{{!showFen}}">
+        <view class="mask" bindtap="clickToFen"></view>
+        <view class="list {{!showFen?'animationBottom':'animationTop'}}">
+          <button open-type="share" class="item_fen myButton" style="border:none;border-radius:none;padding:0">
+            <view class="toFriend">转发</view>
+          </button>
+          <view class="item_fen" bindtap='toFriend' data-id="4">生成朋友圈分享</view>
+          <!-- <view class="item_fen" style='border:none'>关于云店宝外卖</view> -->
+          <view class="item_fen" style='border:none;margin-top:20rpx;' bindtap="clickToFen">取消</view>
+        </view>
+      </view>
+</view>
